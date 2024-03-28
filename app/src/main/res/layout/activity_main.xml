@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:background="#9C27B0"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Devizni kalkulator"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="208dp"
+        android:layout_height="44dp"
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Euro"
+
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="205dp"
+        android:layout_height="44dp"
+        android:background="#FF9800"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Dolar"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iznos u valutama"
+        android:textColor="#00BCD4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="201dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Iznos u evri"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Iznos u dolari"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal4"
+        android:layout_width="196dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Kurs dolara"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Kursevi valuta"
+        android:textColor="#A42FBF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal3"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Kurs evra"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="153dp"
+        android:layout_height="53dp"
+        android:text="konvertuj dolare u dinare"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="158dp"
+        android:layout_height="57dp"
+        android:text="konvertuj eure u dinare"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iznos u dinari"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iznos u dinari"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="624dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
