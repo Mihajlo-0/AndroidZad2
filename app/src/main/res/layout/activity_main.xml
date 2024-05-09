@@ -38,7 +38,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Dolar"
-        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteX="208dp"
         tools:layout_editor_absoluteY="112dp" />
 
     <TextView
